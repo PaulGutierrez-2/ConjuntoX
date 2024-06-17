@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://db.onlinewebfonts.com/c/fb2d739ca446e61b2b83335d3caacd55?family=Arcadepix);
+
+*{
+    color-scheme: dark;
+    font-family: "Arcadepix";
+}
+
+body{
+    margin: 0%;
+}
+
+
