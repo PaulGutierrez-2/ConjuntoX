@@ -18,11 +18,3 @@ body{
     background-color: rgba(0, 0, 0);
     border: gray 2px solid;
 }
-
-.btnPixel {
-    margin: 20px 0;
-    width: 200px;
-    height: 80px;
-
-    font-size: large;
-}
