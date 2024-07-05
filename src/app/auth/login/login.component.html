@@ -1,15 +1,16 @@
 <div class="container">
-    <img src="./img/LOGO.png" alt="">
+    <img src="../../../assets/img/LOGO.png" alt="">
     <h1>BIENVENIDO</h1>
     <div class="usuario">
         <h3>USUARIO / EMAIL</h3>
-        <input type="text" name="" id="" class="inputbox">
+        <input type="text" class="inputbox" placeholder=" USUARIO">
     </div>
     <div class="contrasena">
         <h3>CONTRASENA</h3>
-        <input type="password" name="" id="" class="inputbox">
-        <p>Ha olvidado su contrasena?</p>
+        <input type="password" class="inputbox" placeholder=" CONTRASENA"><br><br>
+        <a class="aLink1">Ha olvidado su contrasena?</a>
     </div>
-    <button>INICIAR SESION</button>
-    <a href="">NO TIEBES CUENTA? REGISTRATE!!</a>
+    <app-button [buttonText]="'INICIAR SESION'"></app-button>
+    <a routerLink="/register">NO TIENES CUENTA? REGISTRATE!!</a>
 </div>
+<router-outlet></router-outlet>

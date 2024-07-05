@@ -1,0 +1,14 @@
+button{
+    background-image: url('../../../assets/img/btnPixel.png');
+    background-size: cover;
+    background-color: transparent;
+    border: 0;
+
+    margin: 20px 0;
+    width: 200px;
+    height: 80px;
+}
+
+button:hover{
+    text-decoration: underline;
+}
