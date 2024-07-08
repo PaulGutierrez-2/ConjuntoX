@@ -1,0 +1,82 @@
+.fondo {
+    height: auto;
+
+    background-color: #000417;
+    background-image: url('../../../assets/img/FondoLearningPath.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 15vh;
+    margin-bottom: 0;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: auto;
+}
+
+.btn {
+    width: 25vw;
+    height: 25vh;
+    margin: 10% 0;
+
+    background-image: url('../../../assets/img/TextBox.png');
+    background-color: transparent;
+    border: none;
+    
+    cursor: pointer;
+
+    position: relative;
+}
+
+/* Posiciones específicas para cada botón */
+.btn-teoria {
+    top: 0;
+    left: 0;
+}
+
+.btn-union {
+    top: 0;
+    left: 0;
+}
+
+.btn-cardinalidad {
+    top: 0;
+    left: 0;
+}
+
+.btn-interseccion {
+    top: 0;
+    left: 0;
+}
+
+.btn-diferencia {
+    top: 0;
+    left: 0;
+}
+
+.btn-complemento {
+    top: 0;
+    left: 0;
+}
+
+.btn-dif-simetrica {
+    top: 0;
+    left: 0;
+}
