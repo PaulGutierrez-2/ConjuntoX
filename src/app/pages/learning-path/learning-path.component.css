@@ -31,23 +31,12 @@ h1 {
     height: auto;
 }
 
-.btn {
-    width: 25vw;
-    height: 25vh;
-    margin: 10% 0;
-
-    background-image: url('../../../assets/img/TextBox.png');
-    background-color: transparent;
-    border: none;
-    font-size: 150%;
-    
-    cursor: pointer;
-
+app-text-box {
     position: relative;
 }
 
 .btn:hover{
-    background-blend-mode: difference;
+    background-image: url('../../../assets/img/TextBoxHover.png');
 }
 
 /* Posiciones específicas para cada botón */
@@ -76,7 +65,6 @@ h1 {
 }
 
 .btn-complemento {
-    top: 0;
     right: 60%;
 }
 
