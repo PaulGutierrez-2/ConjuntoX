@@ -11,7 +11,7 @@
 }
 
 .container {
-    width: 80vw;
+    width: 95vw;
 
     display: flex;
     flex-direction: column;
@@ -39,44 +39,48 @@ h1 {
     background-image: url('../../../assets/img/TextBox.png');
     background-color: transparent;
     border: none;
+    font-size: 150%;
     
     cursor: pointer;
 
     position: relative;
 }
 
-/* Posiciones específicas para cada botón */
-.btn-teoria {
-    top: 0;
-    left: 0;
+.btn:hover{
+    background-blend-mode: difference;
 }
 
-.btn-union {
-    top: 0;
-    left: 0;
+/* Posiciones específicas para cada botón */
+.btn-teoria {
+    right: 100%;
 }
 
 .btn-cardinalidad {
-    top: 0;
-    left: 0;
+    top: 5%;
+    right: 50%;
+}
+
+.btn-union {
+    bottom: 15%;
+    left: 120%;
 }
 
 .btn-interseccion {
-    top: 0;
-    left: 0;
+    bottom: 5%;
+    left: 100%;
 }
 
 .btn-diferencia {
-    top: 0;
-    left: 0;
+    bottom: 10%;
+    right: 80%;
 }
 
 .btn-complemento {
     top: 0;
-    left: 0;
+    right: 60%;
 }
 
 .btn-dif-simetrica {
-    top: 0;
-    left: 0;
+    bottom: 20%;
+    left: 120%;
 }
