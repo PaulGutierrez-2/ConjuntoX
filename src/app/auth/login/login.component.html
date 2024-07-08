@@ -1,16 +1,18 @@
-<div class="container">
-    <img src="../../../assets/img/LOGO.png" alt="">
-    <h1>BIENVENIDO</h1>
-    <div class="usuario">
-        <h3>USUARIO / EMAIL</h3>
-        <input type="text" class="inputbox" placeholder=" USUARIO">
+<div class="fondo">
+    <div class="container">
+        <img src="../../../assets/img/LOGO.png" alt="">
+        <h1>BIENVENIDO</h1>
+        <div class="usuario">
+            <h3>USUARIO / EMAIL</h3>
+            <input type="text" class="inputbox" placeholder=" USUARIO">
+        </div>
+        <div class="contrasena">
+            <h3>CONTRASENA</h3>
+            <input type="password" class="inputbox" placeholder=" CONTRASENA"><br><br>
+            <a class="aLink1">Ha olvidado su contrasena?</a>
+        </div>
+        <app-button buttonText="INICIAR SESION"></app-button>
+        <a routerLink="/register">NO TIENES CUENTA? REGISTRATE!!</a>
     </div>
-    <div class="contrasena">
-        <h3>CONTRASENA</h3>
-        <input type="password" class="inputbox" placeholder=" CONTRASENA"><br><br>
-        <a class="aLink1">Ha olvidado su contrasena?</a>
-    </div>
-    <app-button buttonText="INICIAR SESION"></app-button>
-    <a routerLink="/register">NO TIENES CUENTA? REGISTRATE!!</a>
 </div>
 <router-outlet></router-outlet>
