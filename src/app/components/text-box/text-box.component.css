@@ -5,12 +5,10 @@ button {
 
     background-image: url('../../../assets/img/TextBox.png');
     background-color: transparent ;
-    border: none;
     font-size: 150%;
+    border: none;
     
     cursor: pointer;
-
-    position: relative;
 }
 
 button:hover {

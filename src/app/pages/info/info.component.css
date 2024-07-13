@@ -22,9 +22,9 @@
 }
 
 .containInfo {
-    height: 400px;
+    height: 390px;
     margin: 20px 50px 0px 50px;
-    padding: 70px;
+    padding: 80px;
 
     display: flex;
     align-items: center;
@@ -35,6 +35,16 @@
 
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
+    border-radius: 19px;
+}
+
+.containInfo::-webkit-scrollbar {
+    border-radius: 19px;
+    width: .6vw;
+}
+
+.containInfo::-webkit-scrollbar-thumb {
+    background-color: gray;
     border-radius: 19px;
 }
 
