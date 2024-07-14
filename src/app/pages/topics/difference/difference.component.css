@@ -1,0 +1,50 @@
+.fondo{
+    height: 100vh;
+    background-image: url('../../../../assets/img/Difference/Fondo\ Diferencia.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.fondo::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    width: min(80vw);
+    height: fit-content;
+    padding: 5%;
+    margin: 2% 10%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    color: rgba(128, 128, 128, 0.75);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255);
+    text-decoration: underline;
+}
