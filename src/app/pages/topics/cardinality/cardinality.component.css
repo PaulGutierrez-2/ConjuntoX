@@ -1,3 +1,96 @@
+<<<<<<< HEAD
+.fondo {
+    height: auto;
+    background-color: #000417;
+    background-image: url("../../../../assets/img/background4.gif");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .bkg{
+      background-color: #131313a1;
+      padding: 20px;
+      text-align: center;
+      border-radius: 45px ;
+      width: 90vw;
+      height: auto;
+  
+  }
+  p {
+    margin: 20px;
+    text-align: center;
+    font-size: x-large;
+  text-shadow: 2px 2px  black;
+  }
+  
+  img {
+    width: 300px;
+    height: 150px;
+    object-fit: fill;
+    display: block;
+    margin:auto 20px ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  table{
+      object-fit: fill;
+      margin: 2px ;
+  }
+
+  .TextPresStart {
+    font-size: 50px;
+  }
+  
+  .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px;
+    font-size: 40px;
+  }
+  
+  .AnParpadeo {
+    animation-name: parpadear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes parpadear {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+   }
+  }
+  
+  strong{
+      color: red;
+  } 
+
+span-dos{
+    color:#27f00c;
+}
+span{
+    color: blue;
+=======
 .fondo{
     height: 100vh;
     background-image: url('../../../../assets/img/Cardinality/Fondo\ Cardinalidad.gif');
@@ -52,4 +145,5 @@ a {
 a:hover {
     color: rgba(255, 255, 255);
     text-decoration: underline;
+>>>>>>> 613cf46fcaff7ca109703778d1a4bdd4a9bff8ab
 }

@@ -1,16 +1,13 @@
 button {
-    width: 25vw;
-    height: 25vh;
-    margin: 10% 0;
-
-    background-image: url('../../../assets/img/TextBox.png');
-    background-color: transparent ;
-    font-size: 150%;
-    border: none;
-    
-    cursor: pointer;
+  width: 25vw;
+  height: 25vh;
+  margin: 30px 0;
+  background-color: transparent;
+  font-size: 150%;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
 }
 
-button:hover {
-    background-image: url('../../../assets/img/TextBoxHover.png');
-}
+
