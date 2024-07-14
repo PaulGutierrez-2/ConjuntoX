@@ -1,16 +1,18 @@
-<div class="fondo">
+<div>
+  <div class="fondo">
     <div class="container">
-        <h1>TEMAS</h1>
-        <p> Estos temas seran los que aprenderas en este juego</p>
-        <div class="btn-container">
-            <app-text-box class="btn-teoria" [title]="'Teoria de Conjuntos'"/>
-            <app-text-box class="btn-cardinalidad" [title]="'Cardinalidad'"/>
-            <app-text-box class="btn-union" [title]="'Union'"/>
-            <app-text-box class="btn-interseccion" [title]="'Interseccion'"/>
-            <app-text-box class="btn-diferencia" [title]="'Diferencia'"/>
-            <app-text-box class="btn-complemento" [title]="'Complemento'"/>
-            <app-text-box class="btn-dif-simetrica" [title]="'Diferencia SimetricaS'"/>
-            <!-- <h2 href="">TERMINADO!</h2>-->
-        </div>
+      <h1>TEMAS</h1>
+      <p>Estos temas seran los que aprenderas en este juego</p>
+      <div class="btn-container">
+        <app-text-box class="btn-teoria" routerLink="/setheory" [title]="'Teoria de Conjuntos'" />
+        <app-text-box class="btn-cardinalidad" routerLink="/cardinality" [title]="'Cardinalidad'" />
+        <app-text-box class="btn-union" routerLink="/union" [title]="'Union'" />
+        <app-text-box class="btn-interseccion" routerLink="/intersection" [title]="'Interseccion'" />
+        <app-text-box class="btn-diferencia" routerLink="/difference" [title]="'Diferencia'" />
+        <app-text-box class="btn-complemento" routerLink="/complement" [title]="'Complemento'" />
+        <app-text-box class="btn-dif-simetrica" routerLink="/SymDifference" [title]="'Diferencia SimetricaS'"
+        />
+      </div>
     </div>
+  </div>
 </div>

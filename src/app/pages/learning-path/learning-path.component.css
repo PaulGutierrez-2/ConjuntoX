@@ -1,74 +1,81 @@
 .fondo {
-    height: auto;
-
-    background-color: #000417;
-    background-image: url('../../../assets/img/FondoLearningPath.jpg');
-    background-size: 100vw;
-    background-repeat: no-repeat;
-
-    display: flex;
-    justify-content: center;
+  height: auto;
+  background-image: url('../../../assets/img/FondoLearningPath.jpg');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-    width: 95vw;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .container{
+      grid-template-columns: 1fr;
+  }
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (min-width:601px) {
+.container{
+  grid-template-columns: repeat(1fr,2);
+}  
 }
 
 h1 {
-    font-size: 15vh;
-    margin-bottom: 0;
+  font-size: 15vh;
+  margin-bottom: 0;
 }
 
 .btn-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
 }
 
 app-text-box {
-    position: relative;
-}
-
-.btn:hover{
-    background-image: url('../../../assets/img/TextBoxHover.png');
+  width: 396px;
+  height: 200px;
+  position: relative;   
+  background-image: url('../../../assets/img/TextBoxHover.png');
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 /* Posiciones específicas para cada botón */
 .btn-teoria {
-    right: 100%;
+  right: 100%;
 }
 
 .btn-cardinalidad {
-    top: 5%;
-    right: 50%;
+  top: 5%;
+  right: 50%;
 }
 
 .btn-union {
-    bottom: 15%;
-    left: 120%;
+  bottom: 15%;
+  left: 120%;
 }
 
 .btn-interseccion {
-    bottom: 5%;
-    left: 100%;
+  bottom: 5%;
+  left: 100%;
 }
 
 .btn-diferencia {
-    bottom: 10%;
-    right: 80%;
+  bottom: 10%;
+  right: 80%;
 }
 
 .btn-complemento {
-    right: 60%;
+  right: 60%;
 }
 
 .btn-dif-simetrica {
-    bottom: 20%;
-    left: 120%;
+  bottom: 22%;
+  left: 90%;
 }

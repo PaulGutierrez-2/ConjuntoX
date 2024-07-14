@@ -3,8 +3,8 @@ button{
     background-size: cover;
     background-color: transparent;
     border: 0;
-
-    margin: 20px 0;
+    font-size: x-large;
+    margin: 0;
     width: 200px;
     height: 80px;
 }
