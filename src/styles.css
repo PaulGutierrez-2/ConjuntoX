@@ -4,10 +4,7 @@
 *{
     color-scheme: dark;
     font-family: "Arcadepix";
-}
-
-body{
-    margin: 0%;
+    margin: 0;
 }
 
 .inputbox {
@@ -17,4 +14,10 @@ body{
 
     background-color: rgba(0, 0, 0);
     border: gray 2px solid;
+}
+
+@keyframes parpadear {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
 }
