@@ -18,10 +18,7 @@
 }
 
 .AnParpadeo {
-    animation-name: parpadear;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: parpadear 2s linear infinite;
 }
 
 @keyframes parpadear {

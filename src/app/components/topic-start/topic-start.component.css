@@ -1,0 +1,22 @@
+.Inicio {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inicio h1{
+    color: black;
+    font-size: 9rem;
+    text-align: center;
+}
+
+.Inicio p{
+    padding-top: 10%;
+    font-size: 3rem;
+    text-align: center;
+
+    animation: parpadear 2s linear infinite;
+}
