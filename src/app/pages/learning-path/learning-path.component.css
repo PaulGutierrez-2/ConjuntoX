@@ -38,16 +38,13 @@ h1 {
 }
 
 app-text-box {
-  width: 396px;
-  height: 200px;
   position: relative;   
-  background-image: url('../../../assets/img/TextBoxHover.png');
-  background-repeat: no-repeat;
-  text-align: center;
+
 }
 
 /* Posiciones específicas para cada botón */
 .btn-teoria {
+  width: 50%;
   right: 100%;
 }
 
