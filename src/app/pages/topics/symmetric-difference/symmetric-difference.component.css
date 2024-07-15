@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .fondo {
     height: auto;
   
@@ -85,7 +84,7 @@
   strong{
       color: red;
   } 
-=======
+
 .fondo{
     height: 100vh;
     background-image: url('../../../../assets/img/SymmetricDifference/Fondo\ Differencia\ Symetrica.gif');
@@ -136,4 +135,3 @@ a:hover {
     color: rgba(255, 255, 255);
     text-decoration: underline;
 }
->>>>>>> 613cf46fcaff7ca109703778d1a4bdd4a9bff8ab
