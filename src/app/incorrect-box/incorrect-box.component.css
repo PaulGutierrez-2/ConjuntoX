@@ -1,0 +1,41 @@
+.gradient-box {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ff4d4d, #b30000);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.incorrecto {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Tiny5", sans-serif;
+}
+
+.mensaje {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Tiny5", sans-serif;
+}
+
+.IntentaDeNuevo {
+    font-size: 2em;
+    margin-top: 10px;
+    color: black;
+    font-family: "Tiny5", sans-serif;
+}
